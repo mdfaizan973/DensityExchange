@@ -5,7 +5,7 @@ export default function Home() {
       style={{
         marginBottom: "24px",
         width: "90%",
-        margin: "auto",
+        margin: "60px auto",
         padding: "16px",
         display: "flex",
         justifyContent: "space-between",
