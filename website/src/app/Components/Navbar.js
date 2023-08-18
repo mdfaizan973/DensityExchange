@@ -15,13 +15,11 @@ const Navbar = () => {
       sx={{
         backgroundColor: "white",
         boxShadow: "none",
-        width: "100%", // Set the width to 100% for full screen
-        left: 0, // Align to the left edge
+        width: "95%",
+        margin: "auto",
       }}
     >
       <Container maxWidth="xl">
-        {" "}
-        {/* Use maxWidth to expand Container */}
         <Toolbar
           sx={{
             justifyContent: "space-between",
@@ -43,19 +41,19 @@ const Navbar = () => {
               variant="body1"
               sx={{ color: "black", marginX: "22px", cursor: "pointer" }}
             >
-              Emotions
+              Manifesto
             </Typography>
             <Typography
               variant="body1"
               sx={{ color: "black", marginX: "22px", cursor: "pointer" }}
             >
-              Emotions
+              Self-awareness test
             </Typography>
             <Typography
               variant="body1"
               sx={{ color: "black", marginX: "22px", cursor: "pointer" }}
             >
-              Emotions
+              Work with us
             </Typography>
           </div>
 
