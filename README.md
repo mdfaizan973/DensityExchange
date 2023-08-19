@@ -3,7 +3,7 @@
 
 
 
-Tech Stack:- `Next.js` , `Material UI`
+Tech Stack:- `Next.js` , `Material UI`, `AOS animation`
 
 
 ![Screenshot (1653)](https://github.com/mdfaizan973/DensityExchange/assets/106812942/1d4d8d33-e1c2-4e0b-afc8-3d8aa9261a7b)
