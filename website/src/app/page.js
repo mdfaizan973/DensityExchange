@@ -6,6 +6,7 @@ import SmallCard from "./Components/SmallCard";
 import Vacncies from "./Components/Vacncies";
 import { Divider } from "@mui/material";
 import Footer from "./Components/Footer";
+import EqBeast from "./Components/EqBeast";
 export default function Home() {
   return (
     <main>
@@ -16,6 +17,7 @@ export default function Home() {
       <SmallCard />
 
       {/*2nd Last */}
+      <EqBeast />
       <Vacncies />
 
       <Divider />

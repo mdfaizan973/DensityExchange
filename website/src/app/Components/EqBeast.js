@@ -1,11 +1,13 @@
+import React from "react";
 import { Typography, Box, Grid } from "@mui/material";
-export default function Beast() {
+
+export default function EqBeast() {
   return (
     <div
       style={{
         marginBottom: "24px",
         width: "90%",
-        margin: "60px auto",
+        margin: "75px auto",
         padding: "16px",
         display: "flex",
         justifyContent: "space-between",
@@ -24,7 +26,7 @@ export default function Beast() {
         }}
       >
         <Typography variant="h4" style={{ fontWeight: "bold" }} component="div">
-          EQ beats IQ
+          Be the best you <br /> with EQ
         </Typography>
       </Box>
 
@@ -39,11 +41,8 @@ export default function Beast() {
         }}
       >
         <Typography variant="h5">
-          People with high emotional <br />
-          intelligence (Eq) live more fulfilled
-          <br />
-          lives. They tend to be happier and
-          <br /> have healthier relationship.
+          Not having your own emotions <br /> under control might be holding
+          <br /> you back.
         </Typography>
       </Box>
 
@@ -53,16 +52,13 @@ export default function Beast() {
           flex: "1",
           marginBottom: "16px",
           padding: "20px",
-
           backgroundColor: "white",
         }}
       >
         <Typography variant="h5">
-          They are more successful in their
-          <br /> pursuits and make for inspiring
-          <br />
-          leaders. According to since, they
-          <br /> eard $29k a year.
+          Addinationally, not understanding
+          <br /> those of others stops you from <br /> beign parent, friend you
+          can be.
         </Typography>
       </Box>
     </div>
