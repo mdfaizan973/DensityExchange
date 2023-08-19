@@ -11,6 +11,7 @@ import GetStarted from "./Components/GetStarted";
 import MeetAhead from "./Components/MeetAhead";
 import SelfImprove from "./Components/SelfImprove";
 import Wondered from "./Components/Wondered";
+import WorkWithUs from "./Components/WorkWithUs";
 export default function Home() {
   return (
     <main>
@@ -23,12 +24,10 @@ export default function Home() {
       <SelfImprove />
       <EqBeast />
       <Wondered />
-
       <GetStarted />
+      <WorkWithUs />
       <Vacncies />
-
       <Divider />
-
       <Footer />
     </main>
   );
