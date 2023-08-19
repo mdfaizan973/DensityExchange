@@ -1,7 +1,17 @@
-import React from "react";
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Typography, Container } from "@mui/material";
 import "./Style/Wondered.css";
 export default function Wondered() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      mirror: false,
+      easing: "ease-out",
+    });
+  }, []);
   return (
     <div
       style={{
@@ -37,22 +47,22 @@ export default function Wondered() {
       >
         <div class="timeliner">
           <div class="timeliner-item">
-            <div class="timeliner-content">
-              <img src="https://img.lovepik.com/free-png/20210926/lovepik-little-sun-yellow-cartoon-sun-png-image_401409914_wh1200.png" />
+            <div class="timeliner-content" data-aos="zoom-in">
+              <img src="https://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/256/Number-1-icon.png" />
 
               <p>Answer question on your social skills</p>
             </div>
           </div>
           <div class="timeliner-item">
-            <div class="timeliner-content">
-              <img src="https://img.lovepik.com/free-png/20210926/lovepik-little-sun-yellow-cartoon-sun-png-image_401409914_wh1200.png" />
+            <div class="timeliner-content" data-aos="zoom-in">
+              <img src="https://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/256/Number-2-icon.png" />
 
               <p>Let others anonymously answer the same question about you</p>
             </div>
           </div>
           <div class="timeliner-item">
-            <div class="timeliner-content">
-              <img src="https://img.lovepik.com/free-png/20210926/lovepik-little-sun-yellow-cartoon-sun-png-image_401409914_wh1200.png" />
+            <div class="timeliner-content" data-aos="zoom-in">
+              <img src="https://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/256/Number-3-icon.png" />
 
               <p>
                 Find out where you and others see things the same way - and
@@ -72,6 +82,7 @@ export default function Wondered() {
         }}
       >
         <img
+          data-aos="zoom-out"
           class="big_img"
           src="https://user-images.githubusercontent.com/106812942/261799919-c150e998-1375-47c9-bf26-b11278fa0965.jpg"
         />

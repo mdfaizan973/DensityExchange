@@ -1,7 +1,17 @@
-import React from "react";
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Container, Grid, Typography, CardMedia } from "@mui/material";
 
 const MeetAhead = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      mirror: false,
+      easing: "ease-out",
+    });
+  }, []);
   return (
     <div
       style={{
@@ -23,7 +33,7 @@ const MeetAhead = () => {
       >
         <Grid container>
           {/* Left Section */}
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={6} data-aos="fade-left">
             <div style={{ display: "flex", justifyContent: "center" }}>
               <div>
                 <Typography
@@ -48,6 +58,7 @@ const MeetAhead = () => {
                   Meet the ahead app
                 </Typography>
                 <CardMedia
+                  data-aos="zoom-in"
                   component="img"
                   src="https://user-images.githubusercontent.com/106812942/261792143-42b6ddf9-17ec-4a0e-aed1-ffcd9757ccfc.png"
                   alt="Meeting"
@@ -59,6 +70,7 @@ const MeetAhead = () => {
 
           {/* Right Section */}
           <Grid
+            data-aos="fade-left"
             item
             xs={12}
             md={6}

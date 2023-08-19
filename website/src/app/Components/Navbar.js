@@ -6,6 +6,7 @@ import {
   Typography,
   Button,
   Container,
+  CardMedia,
 } from "@mui/material";
 
 const Navbar = () => {
@@ -25,10 +26,15 @@ const Navbar = () => {
             justifyContent: "space-between",
           }}
         >
-          <Avatar
-            alt="logo"
-            src="https://i.pinimg.com/564x/6c/85/7e/6c857efd866376a46abff877af8befca.jpg"
-            sx={{ width: "70px", height: "70px" }}
+          <CardMedia
+            component="img"
+            style={{
+              width: "60px",
+              height: "60px",
+              borderRadius: "10px",
+            }}
+            image="https://ih1.redbubble.net/image.973173403.2014/raf,360x360,075,t,fafafa:ca443f4786.jpg"
+            alt="Logo"
           />
           <div style={{ display: "flex" }}>
             <Typography

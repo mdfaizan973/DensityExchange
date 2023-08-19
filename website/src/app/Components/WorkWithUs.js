@@ -1,6 +1,17 @@
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Box, Card, CardContent, Container, Typography } from "@mui/material";
 import "./Style/WorkWith.css";
 export default function WorkWithUs() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      mirror: false,
+      easing: "ease-out",
+    });
+  }, []);
   return (
     <div
       style={{
@@ -20,7 +31,13 @@ export default function WorkWithUs() {
         }}
       >
         <Typography style={{ fontWeight: "bold" }} variant="h3">
-          Work with us
+          <Typography
+            style={{ fontWeight: "bold" }}
+            variant="h3"
+            data-aos="fade-right"
+          >
+            Work with us
+          </Typography>
           <Card
             style={{
               marginTop: "50px",
@@ -79,6 +96,7 @@ export default function WorkWithUs() {
         <Typography
           style={{ fontWeight: "bold", color: "#6240f1" }}
           variant="h3"
+          data-aos="fade-left"
         >
           ahead
         </Typography>
@@ -105,6 +123,8 @@ export default function WorkWithUs() {
                 marginTop: "30px",
                 textAlign: "start",
               }}
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               <CardContent>
                 <Typography
@@ -137,6 +157,8 @@ export default function WorkWithUs() {
                 marginTop: "30px",
                 textAlign: "start",
               }}
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               <CardContent>
                 <Typography
@@ -167,6 +189,8 @@ export default function WorkWithUs() {
                 marginTop: "30px",
                 textAlign: "start",
               }}
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               <CardContent>
                 <Typography
@@ -199,6 +223,8 @@ export default function WorkWithUs() {
                 marginTop: "30px",
                 textAlign: "start",
               }}
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               <CardContent>
                 <Typography
@@ -228,6 +254,8 @@ export default function WorkWithUs() {
                 marginTop: "30px",
                 textAlign: "start",
               }}
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               <CardContent>
                 <Typography
@@ -260,6 +288,8 @@ export default function WorkWithUs() {
                 marginTop: "30px",
                 textAlign: "start",
               }}
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               <CardContent>
                 <Typography
@@ -290,6 +320,8 @@ export default function WorkWithUs() {
                 marginTop: "30px",
                 textAlign: "start",
               }}
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               <CardContent>
                 <Typography
@@ -322,6 +354,8 @@ export default function WorkWithUs() {
                 marginTop: "30px",
                 textAlign: "start",
               }}
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               <CardContent>
                 <Typography

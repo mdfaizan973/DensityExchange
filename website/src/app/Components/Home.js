@@ -1,7 +1,16 @@
-import React from "react";
+"use client";
+import { useEffect } from "react";
 import { Box, Container, Typography, Rating, Button } from "@mui/material";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const MasterSection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      mirror: false,
+      easing: "ease-out",
+    });
+  }, []);
   return (
     <Box
       sx={{
@@ -87,6 +96,7 @@ const MasterSection = () => {
         </Box>
         <Box sx={{ flex: 1 }}>
           <img
+            data-aos="zoom-in-left"
             src="https://user-images.githubusercontent.com/106812942/261672149-46c88edb-2c33-4c46-a8c2-d8cc9c4db67f.png"
             alt="iPhone"
             style={{ width: "100%", height: "auto" }}

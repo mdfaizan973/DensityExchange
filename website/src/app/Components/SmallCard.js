@@ -1,5 +1,8 @@
+"use client";
+import { useEffect } from "react";
 import { Card, CardContent, Typography, Grid } from "@mui/material";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const wordsData = [
   {
     emoji: "😊",
@@ -31,8 +34,16 @@ const wordsData = [
   },
 ];
 export default function SmallCard() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      mirror: false,
+      easing: "ease-out",
+    });
+  }, []);
   return (
     <div
+      data-aos="fade-left"
       style={{
         width: "95%",
         margin: "50px auto",

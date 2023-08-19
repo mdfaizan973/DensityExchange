@@ -1,4 +1,7 @@
-import React from "react";
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Card, CardContent, Typography, Grid } from "@mui/material";
 
 const cardData = [
@@ -29,9 +32,20 @@ const cardData = [
 ];
 
 export default function Vacancies() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      mirror: false,
+      easing: "ease-out",
+    });
+  }, []);
   return (
     <div style={{ width: "87%", margin: "80px auto" }}>
-      <Typography style={{ fontWeight: "600" }} variant="h4">
+      <Typography
+        style={{ fontWeight: "600" }}
+        variant="h4"
+        data-aos="fade-right"
+      >
         Open vacancies
       </Typography>
 
@@ -39,6 +53,8 @@ export default function Vacancies() {
         {cardData.map((card, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card
+              data-aos="fade-up"
+              data-aos-duration="3000"
               style={{
                 padding: "16px",
                 borderRadius: "15px",

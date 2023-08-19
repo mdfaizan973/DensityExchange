@@ -14,7 +14,7 @@ const Footer = () => {
               margin: "0 auto",
               borderRadius: "10px",
             }}
-            image="https://i.pinimg.com/564x/6c/85/7e/6c857efd866376a46abff877af8befca.jpg"
+            image="https://ih1.redbubble.net/image.973173403.2014/raf,360x360,075,t,fafafa:ca443f4786.jpg"
             alt="Logo"
           />
           <Typography
