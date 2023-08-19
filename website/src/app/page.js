@@ -9,6 +9,7 @@ import Footer from "./Components/Footer";
 import EqBeast from "./Components/EqBeast";
 import GetStarted from "./Components/GetStarted";
 import MeetAhead from "./Components/MeetAhead";
+import SelfImprove from "./Components/SelfImprove";
 export default function Home() {
   return (
     <main>
@@ -18,10 +19,11 @@ export default function Home() {
       <Sound />
       <SmallCard />
       <MeetAhead />
+      <SelfImprove />
       {/*2nd Last */}
+      <EqBeast />
 
       <GetStarted />
-      <EqBeast />
       <Vacncies />
 
       <Divider />

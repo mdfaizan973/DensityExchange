@@ -7,6 +7,7 @@ const MeetAhead = () => {
       style={{
         width: "90%",
         margin: "auto",
+        marginTop: "150px",
         padding: "25px",
         background: "#fef7f1",
         borderRadius: "20px",
