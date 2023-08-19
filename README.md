@@ -1,6 +1,6 @@
 # DensityExchange 👋
 
-<div style="width: 60%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center;">
+<div  align= "center">
   <div style="width: calc(33.33% - 10px); margin-bottom: 20px; overflow: hidden; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);">
     <img style="width: 25%; height: auto; cursor: pointer" src="https://github.com/mdfaizan973/DensityExchange/assets/106812942/1d4d8d33-e1c2-4e0b-afc8-3d8aa9261a7b" alt="mdfaizan973" />
   </div>
