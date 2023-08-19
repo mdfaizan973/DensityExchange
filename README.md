@@ -1,5 +1,23 @@
 # DensityExchange 👋
 
+
+
+
+
+`Discription:-` 
+
+Welcome to our animated landing page, brought to life with Next.js, Material-UI, and captivating AOS animations. Immerse yourself in a dynamic journey, where content gracefully unfolds with every scroll. Experience innovation, elegance, and engagement like never before.
+
+`Video Presentation`:-
+
+https://github.com/mdfaizan973/DensityExchange/assets/106812942/f3d079f6-be5a-412a-870b-c3af268ea110
+
+
+Tech Stack:- 
+
+`Next.js` , `Material UI`, `AOS animation`
+
+
 <div  align= "center">
   <div style="width: calc(33.33% - 10px); margin-bottom: 20px; overflow: hidden; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);">
     <img style="width: 50%; height: auto; cursor: pointer" src="https://github.com/mdfaizan973/DensityExchange/assets/106812942/1d4d8d33-e1c2-4e0b-afc8-3d8aa9261a7b" alt="mdfaizan973" />
@@ -32,26 +50,7 @@
   <div style="width: calc(33.33% - 10px); margin-bottom: 20px; overflow: hidden; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);">
     <img style="width: 50%; height: auto; cursor: pointer" src="https://github.com/mdfaizan973/DensityExchange/assets/106812942/648a9334-c03c-4ba3-a892-297fc541fc9c" alt="mdfaizan973" />
   </div>
-  
 </div>
-
-
-
-`Discription:-` 
-
-Welcome to our animated landing page, brought to life with Next.js, Material-UI, and captivating AOS animations. Immerse yourself in a dynamic journey, where content gracefully unfolds with every scroll. Experience innovation, elegance, and engagement like never before.
-
-`Video Presentation`:-
-
-https://github.com/mdfaizan973/DensityExchange/assets/106812942/f3d079f6-be5a-412a-870b-c3af268ea110
-
-
-Tech Stack:- 
-
-`Next.js` , `Material UI`, `AOS animation`
-
-
-
 
 
 
