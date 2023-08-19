@@ -10,6 +10,7 @@ import EqBeast from "./Components/EqBeast";
 import GetStarted from "./Components/GetStarted";
 import MeetAhead from "./Components/MeetAhead";
 import SelfImprove from "./Components/SelfImprove";
+import Wondered from "./Components/Wondered";
 export default function Home() {
   return (
     <main>
@@ -20,8 +21,8 @@ export default function Home() {
       <SmallCard />
       <MeetAhead />
       <SelfImprove />
-      {/*2nd Last */}
       <EqBeast />
+      <Wondered />
 
       <GetStarted />
       <Vacncies />

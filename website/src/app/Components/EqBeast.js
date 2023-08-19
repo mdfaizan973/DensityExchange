@@ -7,7 +7,7 @@ export default function EqBeast() {
       style={{
         marginBottom: "24px",
         width: "90%",
-        margin: "75px auto",
+        margin: "55px auto",
         padding: "16px",
         display: "flex",
         justifyContent: "space-between",
