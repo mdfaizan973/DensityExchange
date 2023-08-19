@@ -32,7 +32,13 @@ const wordsData = [
 ];
 export default function SmallCard() {
   return (
-    <div style={{ width: "95%", margin: "50px auto" }}>
+    <div
+      style={{
+        width: "95%",
+        margin: "50px auto",
+        overflowX: "auto",
+      }}
+    >
       <Grid container spacing={4}>
         {wordsData.map((wordData, index) => (
           <Grid item xs={12} sm={6} md={3} key={index}>
