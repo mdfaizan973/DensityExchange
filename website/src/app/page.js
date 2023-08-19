@@ -8,6 +8,7 @@ import { Divider } from "@mui/material";
 import Footer from "./Components/Footer";
 import EqBeast from "./Components/EqBeast";
 import GetStarted from "./Components/GetStarted";
+import MeetAhead from "./Components/MeetAhead";
 export default function Home() {
   return (
     <main>
@@ -16,7 +17,7 @@ export default function Home() {
       <Beats />
       <Sound />
       <SmallCard />
-
+      <MeetAhead />
       {/*2nd Last */}
 
       <GetStarted />
