@@ -1,5 +1,11 @@
 # DensityExchange 👋
 
+
+
+
+Tech Stack:- `Next.js` , `Material UI`
+
+
 ![Screenshot (1653)](https://github.com/mdfaizan973/DensityExchange/assets/106812942/1d4d8d33-e1c2-4e0b-afc8-3d8aa9261a7b)
 ![Screen![Screenshot (1655)](https://github.com/mdfaizan973/DensityExchange/assets/106812942/cc4aafe0-d1f2-4eec-8de5-68300b75bf44)
 shot (16![Screenshot (1656)](https://github.com/mdfaizan973/DensityExchange/assets/106812942/c8f289f5-b57a-406d-9e3d-d176117eb021)
