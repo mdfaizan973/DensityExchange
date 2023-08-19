@@ -5,7 +5,9 @@
 Welcome to our animated landing page, brought to life with Next.js, Material-UI, and captivating AOS animations. Immerse yourself in a dynamic journey, where content gracefully unfolds with every scroll. Experience innovation, elegance, and engagement like never before.
 
 
-Tech Stack:- `Next.js` , `Material UI`, `AOS animation`
+Tech Stack:- 
+
+`Next.js` , `Material UI`, `AOS animation`
 
 
 ![Screenshot (1653)](https://github.com/mdfaizan973/DensityExchange/assets/106812942/1d4d8d33-e1c2-4e0b-afc8-3d8aa9261a7b)
