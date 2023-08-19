@@ -1,5 +1,4 @@
 import { Typography } from "@mui/material";
-
 export default function Sound() {
   return (
     <div
@@ -16,7 +15,7 @@ export default function Sound() {
 
       <div className="container">
         <img
-          class="farmer"
+          class="sound_farmer"
           style={{ width: "30%" }}
           src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBvx0HPeFTSt9XnlmKcHIGBW7jNX_29-_DGng1u9aoPUekQ6jb"
         />
